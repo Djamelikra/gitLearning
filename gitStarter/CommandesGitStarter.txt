@@ -1,0 +1,26 @@
+COMMANDES git/GitHub
+
+►START
+
+$ git init
+
+$ git add .
+
+$ git commit -m "Ajout"
+$ git branch -M main
+
+$ git remote add origin https://github.com/Jamelkol/devSource.git
+https://github.com/Djamelikra/classeVehicule.git
+
+
+
+$ git push -u origin main
+
+---------------------------
+si erreur :
+error: failed to push some refs to 'https://github.com/Jamelkol/devSource.git'
+$ git pull origin main --allow-unrelated-histories
+$ git pull origin main
+$ git push -u origin main
+-------------------------------------
+END ◄
