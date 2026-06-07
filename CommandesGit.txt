@@ -1,0 +1,10 @@
+17:49 01/05/2026
+CommandesGit
+
+Modifier le message du dernier commit non poussé
+    $ git commit --amend -m "Mon nouveau message de commit"
+Modifier le message du dernier commit poussé
+    $ git commit --amend -m "Mon nouveau message de commit"
+    $ git push -f
+Unstage d'un fichier : retirer 1 fichier du commit
+    $ git reset -- chemin/du/fichier
